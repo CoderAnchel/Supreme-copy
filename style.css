@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100;200;300;500&family=Manrope:wght@200;300;500&display=swap");
+
+@font-face {
+  font-family: "supremehov";
+  src: url(/fonts/MUNICH_SANS.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.burger {
+  display: none !important;
+}
+
+.close {
+  display: none !important;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.nwa {
+  display: none;
+}
+
+.nav1-responsive {
+  display: none;
+}
+
+.header {
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.nav {
+    padding: 10px;
+    color: #ffffff;
+    background-color: #17181c;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #9ba4c9;
+}
+
+.nav1 {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #17181c;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.nav h3 {
+  padding: 6px;
+  background: #fb4653;
+  margin-right: 40px;
+  font-size: 25px;
+  color: #ffffff;
+  transition: all 0.5s;
+}
+
+.nav h3:hover {
+  box-shadow: rgba(251, 70, 83, 1) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.21s;
+}
+
+.nav ul a:hover {
+  color: #fb4653;
+  text-shadow: rgba(251, 70, 83, 1) 0px 5px 15px;
+}
+
+.nav ul li {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.nav2 {
+  align-items: center;
+  margin-right: 30px;
+}
+
+.nav2 input {
+  color: #333333;
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.nav2 i {
+  padding: 0 5px;
+  color: #ffffff;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+.nav2 i:hover {
+    color: #fb4653;
+    text-shadow: rgba(251, 70, 83, 1) 0px 5px 15px;
+}
+
+.main {
+  color: #16181c;
+  justify-content: center;
+  display: flex;
+  height: 700px;
+  align-items: center;
+  border-bottom: 1px solid #16181c;
+}
+
+.main h4 {
+  text-align: center;
+  width: 200px;
+  font-family: "Lexend Mega", sans-serif;
+  padding: 6px;
+  margin-left: 17%;
+  font-size: 25px;
+  background: #fb4653;
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+.main h4:hover {
+  width: 220px;
+  cursor: pointer;
+  font-size: 33px;
+}
+
+.main h3 {
+  color: #16181c;
+  margin: 30px 0;
+  font-size: 55px;
+  font-family: "supremehov", "Manrope", sans-serif;
+}
+
+.main a {
+  color: #737991;
+  text-decoration: none;
+}
+
+.main h3 span {
+  transition: all 0.3s;
+}
+
+.main h3 span:hover {
+  color: #fb4653;
+  font-size: 60px;
+}
+
+.products {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  justify-content: space-between;
+  text-align: center;
+  font-family: "Lexend Mega", sans-serif;
+  margin: 60px 20px;
+  width: 500px;
+  font-size: 35px;
+}
+
+.card a {
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.card a:hover {
+  color: #e42420;
+}
+
+.card img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Lexend Mega", sans-serif;
+  color: #ffffff;
+  background: #252325;
+}
+
+footer h3 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 25px;
+  background: #e32420;
+  color: #ffffff;
+  transition: all 0.4s;
+}
+
+footer h4 {
+  margin: 10px 20px;
+}
+
+.things {
+  padding: 10px;
+  text-align: center;
+  background: #f4f4f4;
+  color: #333333;
+}
+
+.things a {
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+.things a:hover {
+  color: #ed2424;
+}
+
+
+@media (max-width: 980px) {
+
+  .nwa_p {
+    margin-right: 40px !important;
+  }
+
+  .main1 h3{
+    font-size: 40px !important;
+  }
+
+
+  .main1 h3 span{
+    color: #252325;
+  }
+
+  
+
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 input{
+    width: 120px;
+    height: 20px;
+  }
+
+  .nav2 i{
+    font-size: 18px;
+  }
+
+  .nwa {
+    display: block;
+  }
+
+  .nav h3 {
+
+    margin-right: 0px;
+
+  }
+
+  .nav1-responsive {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #17181c;
+    font-family: "Lexend Mega", sans-serif;
+    height: 600px;
+    width: 100%;
+  }
+
+  .nav1-responsive {
+    display: none;
+  }
+
+
+  .nav1-responsive.opn {
+    display: flex;
+  }
+
+  .nav1-responsive ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav1-responsive li{
+    list-style: none;
+  }
+
+  .nav1-responsive a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+  .fa-bars {
+    display: block;
+    font-size: 20px !important;
+  }
+
+  .burger {
+    display: block !important;
+  }
+
+  .burger.cls {
+    display: none !important;
+  }
+
+
+  .burger.opn {
+    display: block !important;
+  }
+
+  .close {
+    display: none !important;
+  }
+
+  .nav2 {
+    display: flex !important;
+  }
+
+  .close.opn {
+    display: block !important;
+  }
+
+  .close.cls {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 input{
+    width: 110px;
+    height: 18px;
+  }
+
+  .nav2 i{
+    font-size: 17px;
+  }
+
+  .nwa {
+    display: block;
+  }
+
+  .nav h3 {
+
+    margin-right: 0px;
+
+  }
+}
+
+
+@media (max-width: 800px) {
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 input{
+    width: 100px;
+    height: 17px;
+  }
+
+  .nav2 i{
+    font-size: 15px;
+  }
+
+  .nwa {
+    display: block;
+  }
+
+  .nav h3 {
+
+    margin-right: 0px;
+
+  }
+}
